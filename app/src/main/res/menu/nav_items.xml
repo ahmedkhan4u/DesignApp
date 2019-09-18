@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Designs"
+        android:icon="@drawable/ic_designs"
+        android:id="@+id/icon_design"
+        />
+
+    <item android:title="Purchase"
+        android:icon="@drawable/ic_purchase"
+        android:id="@+id/icon_purchase"
+        />
+
+    <item android:title="Settings"
+        android:icon="@drawable/icon_settings"
+        android:id="@+id/icon_settings"
+        />
+
+    <item android:title="Feedback"
+        android:icon="@drawable/feedback"
+        android:id="@+id/icon_feedback"
+        />
+</menu>

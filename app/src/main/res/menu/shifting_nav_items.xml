@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/shifting_home"
+        />
+
+    <item android:title="Camera"
+        android:icon="@drawable/ic_dark_camera"
+        android:id="@+id/shifting_camera"
+        />
+
+    <item android:title="Search"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/shifting_search"
+        />
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_profile"
+        android:id="@+id/shifting_profile"
+        />
+</menu>

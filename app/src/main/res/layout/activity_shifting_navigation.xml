@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShiftingNavigationActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        app:title="Shifting Navigation"
+        app:titleTextColor="@android:color/white"
+        android:id="@+id/shiftin_toolbar"
+        ></androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_shifting"
+        android:layout_below="@id/shiftin_toolbar"
+        android:background="@color/colorPrimary"
+        android:id="@+id/shifting_nav_fragments"
+        ></FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/shifting_nav_items"
+        app:itemIconTint="@color/shifting_nav_color"
+        app:itemTextColor="@color/shifting_nav_color"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:id="@+id/nav_shifting"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
