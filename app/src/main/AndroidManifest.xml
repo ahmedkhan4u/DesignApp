@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BottomSheetsActivity"></activity>
+        <activity android:name=".FoodOrderBottomSheet"></activity>
+        <activity android:name=".BottomSheetsActivity" android:parentActivityName=".MainActivity" />
         <activity android:name=".BottomSheetGridActivity" />
         <activity android:name=".SimpleBottomSheetActivity" />
         <activity
